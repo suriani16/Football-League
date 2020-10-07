@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         initData()
         MainActivityUi().setContentView(this)
-        showRecylerView()
+        showRecyclerView()
     }
 
     class MainActivityUi : AnkoComponent<MainActivity> {
@@ -70,7 +70,7 @@ class MainActivity : AppCompatActivity() {
         image.recycle()
     }
 
-    private fun showRecylerView() {
+    private fun showRecyclerView() {
         findViewById<RecyclerView>(R.id.recyclerView).layoutManager = GridLayoutManager(this, 2)
         findViewById<RecyclerView>(R.id.recyclerView).adapter = FootballAdapter(footballItem) {
             startActivity<DetailActivity>(DetailActivity.POSITION_EXTRA to it)
