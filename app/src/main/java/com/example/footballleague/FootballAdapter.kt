@@ -5,6 +5,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.FootballLeague.R
 import com.squareup.picasso.Picasso
 import kotlinx.android.extensions.LayoutContainer
 import org.jetbrains.anko.AnkoContext
