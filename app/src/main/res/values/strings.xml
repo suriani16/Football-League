@@ -1,8 +1,7 @@
 <resources>
     <string name="app_name">Football League</string>
     <string name="hint_name">Football League</string>
-
-    // Nama Setiap Liga Sepak Bola
+    // Name of Every Football League
     <string-array name="league_name">
         <item>English Premier League</item>
         <item>French Ligue 1</item>
