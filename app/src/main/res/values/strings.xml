@@ -1,8 +1,7 @@
 <resources>
     <string name="app_name">Football League</string>
     <string name="hint_name">Football League</string>
-
-    // Nama Setiap Liga Sepak Bola
+    // Name of Every Football League
     <string-array name="league_name">
         <item>English Premier League</item>
         <item>French Ligue 1</item>
@@ -16,7 +15,7 @@
         <item>English League 1</item>
     </string-array>
 
-    // Deskripsi Setiap Liga
+    // Description of Each League
     <string-array name="league_description">
         <item>The Premier League (often referred to as the English Premier League (EPL) outside England), is the top level of the English football league system. Contested by 20 clubs, it operates on a system of promotion and relegation with the English Football League (EFL).
             The Premier League is a corporation in which the member clubs act as shareholders. Seasons run from August to May with each team playing 38 matches (playing each other home and away). Most games are played on Saturday and Sunday afternoons. The Premier League has featured 47 English and two Welsh clubs since its inception, making it a cross-border league.
@@ -63,7 +62,7 @@
         </item>
     </string-array>
 
-    //Logo Setiap Liga
+    //Logo of Every League
     <array name="league_badge">
         <item>@drawable/english_premier_league</item>
         <item>@drawable/french_ligue_1</item>
