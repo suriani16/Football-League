@@ -62,7 +62,7 @@
         </item>
     </string-array>
 
-    //Logo Setiap Liga
+    //Logo of Every League
     <array name="league_badge">
         <item>@drawable/english_premier_league</item>
         <item>@drawable/french_ligue_1</item>
