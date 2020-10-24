@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.squareup.picasso.Picasso
 import org.jetbrains.anko.*
 
+@Suppress("NULLABILITY_MISMATCH_BASED_ON_JAVA_ANNOTATIONS")
 class DetailActivity : AppCompatActivity() {
     companion object {
         const val POSITION_EXTRA: String = "position_extra"
