@@ -5,9 +5,11 @@ import android.view.Gravity
 import android.view.View
 import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
+import com.example.FootballLeague.R
 import com.squareup.picasso.Picasso
 import org.jetbrains.anko.*
 
+@Suppress("NULLABILITY_MISMATCH_BASED_ON_JAVA_ANNOTATIONS")
 class DetailActivity : AppCompatActivity() {
     companion object {
         const val POSITION_EXTRA: String = "position_extra"
